@@ -5,7 +5,7 @@ The repository is divided into 3 different steps, such as the challenge:
 
 1. Joining tables:
 
-The query designed to join tables
+Query designed to join tables
 
 Files:
 
