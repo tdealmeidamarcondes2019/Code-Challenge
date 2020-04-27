@@ -1,0 +1,12 @@
+JOINING TABLES
+## Query 1
+# Joining tables and getting overall data about loan given (active or repaid)
+select l.amount as loan_amount, l.id as loan_id, 
+		u.id as user_id, t.fee as transaction_fee, l.loan_status
+from loans l join users u 
+on l.user_id = u.id
+join transactions t
+on l.user_id = t.user_id
+where l.loan_status = 'active'
+or l.loan_status = 'repaid'
+

@@ -1,0 +1,59 @@
+AGGREGATION
+# Aggregation: analyzing loans table information
+
+## Query 2
+# number of loans per month
+select count(id) as total_loans,
+extract (year from created) as year,
+extract (month from created) as month
+from loans
+group by 2, 3
+order by 2, 3
+
+## Query 3
+# total amount of all loans per month
+select sum(amount) as total_amount,
+extract (year from created) as year,
+extract (month from created) as month
+from loans
+group by 2, 3
+order by 2, 3
+
+## Query 4
+# average amount of each loan per month
+select round(avg(amount),2) as avg_amount,
+extract (year from created) as year,
+extract (month from created) as month
+from loans
+group by 2, 3
+order by 2, 3
+
+## Query 5
+# smallest loan size per month
+select min(amount) as smallest_loan,
+extract (year from created) as year,
+extract (month from created) as month
+from loans
+group by 2, 3
+order by 2, 3
+
+## Query 6
+# largest loan size per month
+select max(amount) as largest_loan,
+extract (year from created) as year,
+extract (month from created) as month
+from loans
+group by 2, 3
+order by 2, 3
+
+## Query 7
+# order by most recent month first
+select count(id) as total_loans, sum(amount) as total_amount,
+extract (year from created) as year,
+extract (month from created) as month
+from loans
+group by 3, 4
+order by 3 desc, 4 desc
+
+
+
