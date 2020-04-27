@@ -19,4 +19,4 @@ Queries performing aggregated functions
 
 3.3. PDF with more visual report created with Google Data Studio
 
-3.3.1 It is possible to access and view the report directly at the platform with the following link:    https://datastudio.google.com/s/nsqZ7qZ_xNo
+It is possible to access and view the report directly at the platform with the following link:    https://datastudio.google.com/s/nsqZ7qZ_xNo
