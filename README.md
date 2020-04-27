@@ -6,21 +6,34 @@ The repository is divided in 3 different steps, such as the challenge:
 1. Joining tables: 
 
 Query generated joining tables
+
 Files:
+
 Joining Tables_query.txt
+
 query_1.csv
+
 
 2. Aggregation: 
 
 Queries performing aggregated functions
+
 Files:
+
 Aggregation_queries.txt
+
 query_2.csv
+
 query_3.csv
+
 query_4.csv
+
 query_5.csv
+
 query_6.csv
+
 query_7.csv
+
 
 3. Data Analysis:
 
