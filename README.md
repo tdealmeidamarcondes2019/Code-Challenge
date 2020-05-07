@@ -19,7 +19,7 @@ Queries performing aggregated functions
 
 <strong> Files: </strong>
 
-2.1. Queries' code: 
+2.1. Code: 
 
 Aggregation_queries.txt
 
