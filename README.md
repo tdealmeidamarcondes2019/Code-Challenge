@@ -8,7 +8,11 @@ Joining tables "loans", "users", and "transactions", to get overall data about l
 
 <strong> Files: </strong>
 
-1.1 Joining Tables_query.txt
+1.1 Coding query:
+
+Joining Tables_query.txt
+
+1.2 Query result:
 
 query_1.csv
 
@@ -23,27 +27,27 @@ Queries performing aggregated functions
 
 Aggregation_queries.txt
 
-2.2. Getting the number of loans per month
+2.2. Query result with the number of loans per month
 
 query_2.csv
 
-2.3 Getting the total amount of all loans per month
+2.3 Query result with the total amount of all loans per month
 
 query_3.csv
 
-2.4 Getting the average amount of each loan per month
+2.4 Query result with the average amount of each loan per month
 
 query_4.csv
 
-2.5 Getting the smallest loan size per month
+2.5 Query result with the smallest loan size per month
 
 query_5.csv
 
-2.6 Getting the largest loan size per month
+2.6 Query result with the largest loan size per month
 
 query_6.csv
 
-2.7 Ordering by most recent month first
+2.7 Query result with table ordered by most recent month first
 
 query_7.csv
 
