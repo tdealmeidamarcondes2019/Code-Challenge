@@ -1,5 +1,4 @@
-## Umba
-<strong> Umba | Code Challenge </strong>
+## Code Challenge
 
 The repository is divided into 3 different steps, such as the challenge:
 
