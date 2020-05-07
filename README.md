@@ -4,7 +4,7 @@ The repository is divided into 3 different steps, such as the challenge:
 
 <strong> 1. Joining tables: </strong>
 
-Joining tables loans, users, and transactions, to get overall data about loans (active or repaid)
+Joining tables "loans", "users", and "transactions", to get overall data about loans (active or repaid)
 
 <strong> Files: </strong>
 
